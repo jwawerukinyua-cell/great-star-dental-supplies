@@ -1,29 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Clean rounded container for high contrast in dark & light tabs -->
+  <rect width="128" height="128" rx="28" fill="#ffffff" />
+  <rect width="126" height="126" x="1" y="1" rx="27" stroke="#E2E8F0" stroke-width="2" />
+
   <!-- Top-Left Cyan Ribbon Cusp -->
   <path
-    d="M 50 32 C 40 31, 26 18, 17 18 C 10 18, 9 29, 12 37 C 13 39, 15 40, 18 38 C 22 34, 26 27, 38 29 C 45 30, 48 33, 50 32 Z"
-    fill="#00a0e9"
+    d="M 64 34 C 52 33, 34 20, 22 20 C 13 20, 11 32, 16 41 C 18 45, 22 45, 25 43 C 32 37, 40 28, 56 30 C 64 31, 68 35, 64 34 Z"
+    fill="#00A0E9"
   />
 
   <!-- Top-Right Leaf-Green Ribbon Cusp -->
   <path
-    d="M 44 22 C 57 18, 76 18, 88 23 C 93 25, 91 34, 86 38 C 81 42, 79 34, 70 28 C 61 23, 49 23, 44 22 Z"
-    fill="#4eb846"
+    d="M 58 24 C 73 19, 96 18, 110 24 C 117 26, 114 37, 107 42 C 100 47, 97 37, 86 30 C 75 24, 62 25, 58 24 Z"
+    fill="#4EB846"
   />
 
-  <!-- Center Dental Cross / Star in Royal Blue -->
-  <rect x="44" y="42" width="12" height="16" rx="2" fill="#1d2c8c" />
-  <rect x="42" y="44" width="16" height="12" rx="2" fill="#1d2c8c" />
+  <!-- Center Great Star Monogram -->
+  <text
+    x="64"
+    y="70"
+    text-anchor="middle"
+    fill="#1D2C8C"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-size="34"
+    letter-spacing="-1"
+  >GS</text>
 
   <!-- Bottom-Left Cyan Root Hook -->
   <path
-    d="M 18 68 C 19 78, 24 92, 33 92 C 41 92, 44 78, 45 73 C 46 70, 48 71, 47 75 C 45 86, 40 98, 30 98 C 20 98, 11 82, 11 68 C 11 65, 18 65, 18 68 Z"
-    fill="#00a0e9"
+    d="M 28 80 C 29 91, 35 106, 46 106 C 55 106, 60 91, 61 85 C 62 81, 65 83, 64 87 C 60 99, 54 112, 42 112 C 29 112, 19 95, 19 80 C 19 76, 28 76, 28 80 Z"
+    fill="#00A0E9"
   />
 
   <!-- Bottom-Right Leaf-Green Root Hook -->
   <path
-    d="M 55 76 C 57 73, 60 74, 61 78 C 63 86, 68 94, 75 94 C 81 94, 84 82, 85 71 C 86 68, 91 68, 91 72 C 89 85, 85 98, 72 98 C 63 98, 57 87, 55 76 Z"
-    fill="#4eb846"
+    d="M 72 89 C 74 85, 79 86, 80 91 C 83 100, 89 110, 98 110 C 105 110, 109 97, 110 85 C 111 81, 117 81, 117 86 C 115 100, 109 114, 95 114 C 84 114, 76 102, 72 89 Z"
+    fill="#4EB846"
   />
 </svg>

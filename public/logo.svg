@@ -1,56 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="100%" height="100%">
-  <!-- Great Star Dental Supplies Ltd Authentic Logo -->
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;family=Open+Sans:wght@700;800&amp;display=swap');
-      .brand-title {
-        font-family: 'Montserrat', 'Arial Black', sans-serif;
-        font-weight: 900;
-        font-size: 64px;
-        fill: #1d2c8c;
-        letter-spacing: -0.5px;
-      }
-      .brand-sub {
-        font-family: 'Open Sans', 'Arial', sans-serif;
-        font-weight: 800;
-        font-size: 27px;
-        fill: #1e1e1e;
-        letter-spacing: 0.2px;
-      }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%" fill="none">
+  <!-- Clean background -->
+  <rect width="600" height="420" fill="#ffffff" rx="16" />
 
-  <!-- Stylized Tooth Cusp & Root Elements -->
+  <!-- Authentic Tooth Cusps & Roots -->
   <g id="tooth-emblem">
     <!-- Top-Left Cyan Ribbon Cusp -->
     <path
-      d="M 252 108 C 215 106, 175 62, 142 62 C 122 62, 120 98, 128 120 C 131 127, 137 130, 145 125 C 158 112, 172 90, 210 98 C 235 102, 246 112, 252 108 Z"
-      fill="#00a0e9"
+      d="M 300 125 C 255 120, 190 60, 140 60 C 105 60, 95 105, 108 135 C 115 150, 130 150, 142 140 C 160 122, 190 92, 245 108 C 280 118, 295 130, 300 125 Z"
+      fill="#00A0E9"
     />
 
     <!-- Top-Right Leaf-Green Ribbon Cusp -->
     <path
-      d="M 230 75 C 275 62, 335 60, 375 75 C 390 82, 385 110, 368 122 C 352 135, 345 110, 315 92 C 285 75, 245 76, 230 75 Z"
-      fill="#4eb846"
+      d="M 280 90 C 335 70, 420 65, 480 90 C 510 102, 498 145, 472 160 C 445 175, 435 140, 395 112 C 352 85, 295 92, 280 90 Z"
+      fill="#4EB846"
     />
 
     <!-- Bottom-Left Cyan Root Hook -->
     <path
-      d="M 150 230 C 152 260, 168 300, 192 300 C 215 300, 222 260, 225 245 C 228 238, 235 240, 232 250 C 225 285, 212 318, 185 318 C 155 318, 132 270, 132 230 C 132 222, 150 220, 150 230 Z"
-      fill="#00a0e9"
+      d="M 175 295 C 180 330, 198 385, 240 385 C 270 385, 282 340, 286 318 C 290 302, 302 306, 298 325 C 286 368, 266 405, 225 405 C 178 405, 162 340, 162 295 C 162 288, 175 288, 175 295 Z"
+      fill="#00A0E9"
     />
 
     <!-- Bottom-Right Leaf-Green Root Hook -->
     <path
-      d="M 260 255 C 265 245, 275 250, 278 260 C 285 282, 298 305, 318 305 C 335 305, 342 270, 345 240 C 347 232, 362 232, 362 242 C 358 280, 348 318, 312 318 C 285 318, 268 285, 260 255 Z"
-      fill="#4eb846"
+      d="M 310 325 C 318 305, 334 308, 338 328 C 350 365, 370 400, 405 400 C 432 400, 444 355, 448 312 C 456 312, 468 316, 468 332 C 460 375, 445 420, 395 420 C 355 420, 330 370, 310 325 Z"
+      fill="#4EB846"
     />
   </g>
 
   <!-- Typography matching exact brand image -->
-  <!-- Line 1: Great Star -->
-  <text x="260" y="195" text-anchor="middle" class="brand-title">Great Star</text>
-  
-  <!-- Line 2: Dental Supplies Ltd -->
-  <text x="260" y="235" text-anchor="middle" class="brand-sub">Dental Supplies Ltd</text>
+  <!-- Line 1: Great Star in Royal Navy Blue -->
+  <text
+    x="300"
+    y="225"
+    text-anchor="middle"
+    fill="#1D2C8C"
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-weight="900"
+    font-size="64"
+    letter-spacing="-1"
+  >Great Star</text>
+
+  <!-- Line 2: Dental Supplies Ltd in Bold Slate Black -->
+  <text
+    x="300"
+    y="272"
+    text-anchor="middle"
+    fill="#111827"
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-weight="800"
+    font-size="28"
+    letter-spacing="0.2"
+  >Dental Supplies Ltd</text>
 </svg>

@@ -51,24 +51,6 @@ export const Logo: React.FC<LogoProps> = ({
             fill="#4EB846"
           />
 
-          {/* Center Dental Cross / Shield Accent */}
-          <rect
-            x="54"
-            y="42"
-            width="12"
-            height="18"
-            rx="2.5"
-            fill={isLight ? '#60A5FA' : '#1D2C8C'}
-          />
-          <rect
-            x="51"
-            y="45"
-            width="18"
-            height="12"
-            rx="2.5"
-            fill={isLight ? '#60A5FA' : '#1D2C8C'}
-          />
-
           {/* Bottom-Left Cyan Root Hook */}
           <path
             d="M 22 64 C 23 74, 29 88, 39 88 C 47 88, 51 74, 52 69 C 53 66, 56 67, 55 71 C 52 82, 47 94, 36 94 C 24 94, 14 78, 14 64 C 14 61, 22 61, 22 64 Z"
