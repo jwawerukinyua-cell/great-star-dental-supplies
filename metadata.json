@@ -1,0 +1,6 @@
+{
+  "name": "Great Star Dental Supplies",
+  "description": "Professional dental equipment, instruments, orthodontics, and clinic consumables catalog for dental clinics and practitioners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
